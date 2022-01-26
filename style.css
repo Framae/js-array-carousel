@@ -7,3 +7,26 @@
 body {
     background-color: lightgray;
 }
+
+.slider {
+    width: 50%;
+    height: 300px;
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    display: flex;
+}
+
+#container-left {
+    width: 70%;
+    height: 100%;
+    background-color: red;
+}
+
+#container-right {
+    width: 30%;
+    height: 100%;
+    background-color: blue;
+}
+
